@@ -18,11 +18,9 @@ p {
 }
 
 blockquote {
-  background-color: #032433;
   margin: 0;
   padding: 3em 1.5em;
   color: white;
-  border-radius: 10px;
 }
 
 cite {
@@ -80,7 +78,6 @@ figure {
 
 #forest-bg {
   position: absolute;
-  top: 200px;
   align-self: flex-end;
   width: 100%;
   z-index: -2;
