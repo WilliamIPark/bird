@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/page-transitions.css" media="screen"/>
     <link rel="stylesheet" href="css/animate.css">
 
+    <!-- Smooth Scrolling -->
+    <script src="js/smooth-scroll.min.js"></script>
+
     <!-- Particle JS -->
     <script src="js/particles.min.js"></script>
     <script>
@@ -66,6 +69,20 @@
   </head>
   <body>
     <main>
+      <nav id="main-nav">
+        <ul>
+          <a data-scroll href="#"><li>Beginning</li></a>
+          <a data-scroll href="#rediscovery"><li>Rediscovery</li></a>
+          <a data-scroll href="#wings"><li>Futile Wings</li></a>
+          <a data-scroll href="#vanished"><li>Vanished</li></a>
+          <a data-scroll href="#quest"><li>The Quest</li></a>
+          <a data-scroll href="#winters"><li>Long Winters</li></a>
+          <a data-scroll href="#zealand"><li>New Zealand</li></a>
+        </ul>
+      </nav>
+
+      <!-- Back to top button -->
+      <a data-scroll href="#"><button id="back-to-top">Top</button></a>
 
       <section id="forest" class="full page sky-bg push-down z-index-push-back">
         <img src="images/forest.svg" id="forest-bg"/>
@@ -83,7 +100,7 @@
 
 
 
-      <section class="page fit mountain-blue">
+      <section id="rediscovery" class="page fit mountain-blue">
         <div class="center-wrap wow zoomIn">
           <p>In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
 
@@ -105,7 +122,7 @@
 
 
 
-      <section class="page fit white">
+      <section id="wings" class="page fit white">
         <div class="center-wrap">
           <header>
             <h1>Futile Wings Have Three-Foot Span</h1>
@@ -188,7 +205,7 @@
 
 
 
-      <section class="full page bg-bird-green">
+      <section id="vanished" class="full page bg-bird-green">
         <div class="center-wrap wow zoomIn">
           <header>
             <h1>Vanished Birds Include 12-Foot Moa</h1>
@@ -231,7 +248,7 @@
       </section>
 
 
-      <section class="page fit bg-orbell">
+      <section id="quest" class="page fit bg-orbell">
         <div class="center-wrap bg-faded-black wow zoomIn">
         <header>
           <h1>A Thirty-Year Quest Begins</h1>
@@ -248,7 +265,7 @@
         </div>
       </section>
 
-      <section class="full page white">
+      <section id="winters" class="full page white">
         <div class="center-wrap wow zoomIn">
         <header>
           <h1>Severe Winters Limit Food</h1>
@@ -265,10 +282,8 @@
         </div>
       </section>
 
-      <section class="page fit no-bg">
-
+      <section id="zealand" class="page fit no-bg">
         <div id="map-bg"></div>
-
         <div class="center-wrap bg-faded-black z-index-push-forward wow slideInLeft">
           <header>
           <h1>New Zealand</h1>
@@ -320,6 +335,11 @@
   <script src="js/wow.js"></script>
   <script>
     new WOW().init();
+  </script>
+
+  <!-- Smooth Scroll  -->
+  <script>
+    smoothScroll.init();
   </script>
 
   </body>

@@ -182,8 +182,59 @@ ul li:hover {
   color: white;
 }
 
+#main-nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  background-color: black;
+  opacity: 0.2;
+  transition: all 0.2s;
+}
 
+#main-nav:hover {
+  opacity: 0.8;
+}
+
+#main-nav ul a li {
+  background-color: transparent;
+  text-align: center;
+  margin: 0.25em 1em;
+  padding: 5px 10px;
+  list-style: none;
+}
+
+#main-nav ul a li:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#main-nav ul a {
+  color: white;
+}
 
 #main-footer div p {
   font-size: 16px;
+}
+
+#back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 80px;
+  height: 30px;
+  z-index: 20;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+#back-to-top:hover {
+  transform: scale(1.2);
 }
