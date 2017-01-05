@@ -29,6 +29,10 @@ cite {
   margin: 4em, 0 0 2em;
 }
 
+
+
+/*TABLE CSS*/
+
 table {
   width:100%;
   border-spacing: 0;
@@ -41,15 +45,26 @@ th {
   color: white;
 }
 
+tr{
+  transition: all 0.3s;
+}
+
 tr:nth-child(odd) {
-  background-color: #3184aa;
-  color: white;
+  background-color: #F4F4F4;
 }
 
 th, td {
   padding: 1em;
   margin: 0;
 }
+
+tr:hover {
+  background-color: #6EBA68;
+  color: white;
+}
+
+/*////////////////////////*/
+
 
 .lake-map {
   width: 100%;
@@ -60,16 +75,27 @@ th, td {
 figure {
   padding: 0;
   margin: 0;
+  background-color: white;
+  color:#032433;
+}
+
+figure figcaption {
+  padding: 20px 0;
 }
 
 .center-wrap {
   max-width: 60em;
   margin: auto;
+  padding: 0 4em;
 }
 
 
 .z-index-push-back {
   z-index: -5;
+}
+
+.z-index-push-forward {
+  z-index: 5;
 }
 
 .push-down {
@@ -130,4 +156,12 @@ figure {
 
 .two-column p:last-of-type {
   margin-left: 1em;
+}
+
+#map-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }

@@ -58,3 +58,23 @@
 .bg-bird-green {
   background-color: #6EBA68;
 }
+
+.bg-orbell {
+  background-color: black;
+  background-image: url("../images/bent-billiard-pipe.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.bg-faded-black {
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+.no-bg {
+  background-color: transparent;
+}
+
+.dark-text header h1, .dark-text p{
+  color: #032433;
+}
