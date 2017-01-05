@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/typography.css" media="screen"/>
     <link rel="stylesheet" href="css/master.css" media="screen"/>
     <link rel="stylesheet" href="css/page-transitions.css" media="screen"/>
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- Particle JS -->
     <script src="js/particles.min.js"></script>
@@ -22,7 +23,7 @@
     </script>
 
     <!-- Staman Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTro_lehTrA4X6VD2rcAo_eHd4HToGFkk">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTro_lehTrA4X6VD2rcAo_eHd4HToGFkk&sensor=false">
     </script>
     <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script>
 
@@ -66,11 +67,6 @@
   <body>
     <main>
 
-
-
-
-
-
       <section id="forest" class="full page sky-bg push-down z-index-push-back">
         <img src="images/forest.svg" id="forest-bg"/>
         <img src="images/moon.svg" id="moon"/>
@@ -88,7 +84,7 @@
 
 
       <section class="page fit mountain-blue">
-        <div class="center-wrap">
+        <div class="center-wrap wow zoomIn">
           <p>In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
 
           <p>Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called <i>takahea</i>, meaning &ldquo;wandering at large,&rdquo; excited almost as much interest in New Zealand as discovery of a living passenger pigeon would arouse
@@ -100,7 +96,7 @@
             on the shore of a lake in what is now called Notornis Valley. Since August, 1898, there had been no authentic report of one being caught, or even seen.</p>
           </div>
         </div>
-        <img src="images/prints.svg" class="prints">
+        <img src="images/prints.svg" class="prints wow bounceIn">
       </section>
 
 
@@ -123,7 +119,7 @@
           <p>The adult bird is vividly colored. Head, neck, breast, and flanks are an iridescent indigo blue, becoming brighter on the shoulders and changing to a malachite green on the mantle. The dark rump and upper tail coverts are olive green, the abdomen
             and thighs purplish black, and the under tail coverts white. The powerful beak is scarlet at the base, fading outwards to a wax pink. Legs and feet are red, eyes reddish brown.</p>
 
-          <img src="images/takahe-bird.png" alt="Takahe" />
+          <img src="images/takahe-bird.png" alt="Takahe" class="wow slideInRight " />
 
           <p>This brilliant color scheme is seen to full advantage only when the bird is approaching the observer or passing at right angles to him.</p>
 
@@ -137,7 +133,7 @@
 
       <section class="half page fit mountain-blue">
         <div id="particles-fireflies" class="fireflies"></div>
-        <div class="center-wrap">
+        <div class="center-wrap wow zoomIn">
         <blockquote>&ldquo;It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced
           grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years.&rdquo;
           <cite>—Heather and Robertson</cite>
@@ -151,7 +147,7 @@
           <p>Originally, native birds had no enemies, and the vegetation which affords them cover was not subject to browsing by animals. Under these favorable conditions many unusual forms of life, including birds of little or no power of flight, were able
             to survive and thrive.</p>
 
-          <table>
+          <table class="wow fadeIn">
             <tr>
               <th>Island</th>
               <th>Size(ha)</th>
@@ -192,8 +188,8 @@
 
 
 
-      <section class="full-page bg-bird-green">
-        <div class="center-wrap">
+      <section class="full page bg-bird-green">
+        <div class="center-wrap wow zoomIn">
           <header>
             <h1>Vanished Birds Include 12-Foot Moa</h1>
           </header>
@@ -217,12 +213,12 @@
       </section>
 
         <figure>
-          <div id="lake-map" class="lake-map">Map failed to load.</div>
+          <div id="lake-map" class="lake-map wow slideInLeft"> Map failed to load.</div>
           <figcaption>Map of Lake Te Anau, where the Takahe showed up again after 28 years, caught by a rabbiter's dog.</figcaption>
         </figure>
 
         <section class="half page mountain-blue">
-          <div class="center-wrap">
+          <div class="center-wrap wow slideInRight">
             <p>After close examination, <i>Dr. Adolph B. Meyer</i> of the Dresden museum found that this bird was sufficiently different from the North Island semi fossil form found by Mantell to warrant a distinct name. Accordingly, the name <i>Notornis hochstetteri</i>
               was given the present species.</p>
 
@@ -236,7 +232,7 @@
 
 
       <section class="page fit bg-orbell">
-        <div class="center-wrap bg-faded-black">
+        <div class="center-wrap bg-faded-black wow zoomIn">
         <header>
           <h1>A Thirty-Year Quest Begins</h1>
         </header>
@@ -253,7 +249,7 @@
       </section>
 
       <section class="full page white">
-        <div class="center-wrap">
+        <div class="center-wrap wow zoomIn">
         <header>
           <h1>Severe Winters Limit Food</h1>
         </header>
@@ -273,7 +269,7 @@
 
         <div id="map-bg"></div>
 
-        <div class="center-wrap bg-faded-black z-index-push-forward">
+        <div class="center-wrap bg-faded-black z-index-push-forward wow slideInLeft">
           <header>
           <h1>New Zealand</h1>
         </header>
@@ -308,7 +304,7 @@
     </section>
 
     <footer id="main-footer" class="page mountain-blue">
-      <div class="center-wrap">
+      <div class="center-wrap wow fadeIn">
         <p>Copyright 1952. R. V. Francis Smith</p>
         <p>Published by the National Geographic Society, Washington, D.C.</p>
         <p>Article: Copyright, 1952, by National Geographic Society, Washington, D.C. International copyright secured. All rights reserved. Printed in U.S.A. Entered at the Post Office at Washington, D.C., as Second Class Mail Matter. Acceptance for mailing
@@ -319,5 +315,12 @@
 
     </main>
   </div>
+
+  <!-- Wow JS -->
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
   </body>
 </html>
