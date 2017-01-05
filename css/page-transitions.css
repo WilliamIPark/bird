@@ -1,0 +1,62 @@
+.page {
+  width: 101%;
+  height: auto;
+  left: -1px;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.fit {
+  height: auto;
+  padding: 10em 0;
+}
+
+.full {
+  height: 100vh;
+}
+
+.half {
+  height: 50vh;
+}
+
+.quarter {
+  height: 25vh;
+}
+
+.sky-bg {
+  background: #081118; /* Old browsers */
+  background: -moz-linear-gradient(top, #081118 0%, #002f49 34%, #002f49 34%, #4a7182 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #081118 0%,#002f49 34%,#002f49 34%,#4a7182 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #081118 0%,#002f49 34%,#002f49 34%,#4a7182 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081118', endColorstr='#4a7182',GradientType=0 ); /* IE6-9 */
+}
+
+.mountain-blue {
+  background-color: #032433;
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.bg-bird-red {
+  background-color: #E84434;
+}
+
+.bg-sea-blue {
+  background-color: #768EC8;
+}
+
+.bg-light-blue {
+  background-color: #2C91D0;
+}
+
+.bg-bird-green {
+  background-color: #6EBA68;
+}

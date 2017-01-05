@@ -1,0 +1,136 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+section {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: white;
+}
+
+blockquote {
+  background-color: #032433;
+  margin: 0;
+  padding: 3em 1.5em;
+  color: white;
+  border-radius: 10px;
+}
+
+cite {
+  display: block;
+  padding-top: 2em;
+  margin: 4em, 0 0 2em;
+}
+
+table {
+  width:100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  background-color: #032433;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #3184aa;
+  color: white;
+}
+
+th, td {
+  padding: 1em;
+  margin: 0;
+}
+
+.lake-map {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.center-wrap {
+  max-width: 60em;
+  margin: auto;
+}
+
+
+.z-index-push-back {
+  z-index: -5;
+}
+
+.push-down {
+  justify-content: flex-end;
+}
+
+#forest-bg {
+  position: absolute;
+  top: 200px;
+  align-self: flex-end;
+  width: 100%;
+  z-index: -2;
+}
+
+#forest h1, #forest h3, #forest cite {
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+#forest h3 {
+  margin-bottom: 3em;
+}
+
+#moon {
+  z-index: -3;
+  position: fixed;
+  left: 50%;
+  top:10%;
+  width: 20%;
+  height: auto;
+}
+
+.stars, .fireflies {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.stars {
+  z-index: -4;
+}
+
+.prints {
+  height: 300px;
+  width: auto;
+  margin-bottom: 5em;
+  position: relative;
+  top: 10em;
+}
+
+.two-column {
+  display: flex;
+}
+
+.two-column p:first-of-type {
+  margin-right: 1em;
+}
+
+.two-column p:last-of-type {
+  margin-left: 1em;
+}

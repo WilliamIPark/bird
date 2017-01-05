@@ -1,0 +1,75 @@
+
+p {
+  font-family: "filson-soft",sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.998em;
+  font-family: "reklame-script",sans-serif;
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.827em;
+  font-family: "filson-soft",sans-serif;
+  color: white;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.999em;
+  font-family: "filson-soft",sans-serif;
+  color: white;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.414em;
+  font-family: "filson-soft",sans-serif;
+  color: white;
+  font-weight: normal;
+}
+
+figure {
+  font-family: "filson-soft",sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#nav-header h1 {
+  font-size: 2em;
+}
+
+#nav-header h3 {
+  font-size: 1.3em;
+}
+
+#nav-header p {
+  font-size: 1em;
+}
+
+blockquote {
+  font-family: "filson-soft",sans-serif;
+  font-size: 1.6em;
+}
+
+cite {
+  font-size: 0.7em;
+  font-family: "filson-soft",sans-serif;
+}
+
+tr, th {
+  font-family: "filson-soft",sans-serif;
+}
+
+.mountain-blue p {
+  color: white;
+}
+
+.white p, .white h1 {
+  color: #032433;
+}
